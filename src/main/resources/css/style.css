@@ -1,0 +1,17 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 mar 2025, 21:18:59
+    Author     : wagne
+*/
+
+.button {
+    -fx-background-color: transparent;
+}
+
+.button:pressed {
+    -fx-scale-x: 0.9;
+    -fx-scale-y: 0.9;
+}
