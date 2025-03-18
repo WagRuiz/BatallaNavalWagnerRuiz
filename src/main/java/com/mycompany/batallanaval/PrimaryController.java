@@ -4,6 +4,7 @@
  */
 package com.mycompany.batallanaval;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
@@ -21,6 +22,8 @@ public class PrimaryController implements Initializable {
 
     @FXML
     private ImageView imgPrincipal;
+    @FXML
+    private ImageView btnJugar;
     /**
      * Initializes the controller class.
      */
@@ -28,5 +31,9 @@ public class PrimaryController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+    @FXML
+    private void switchToSecondary() throws IOException {
+        App.setRoot("secondary"); // Cambia la pantalla a "secondary.fxml"
+    }
     
 }
